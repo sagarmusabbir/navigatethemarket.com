@@ -14,7 +14,7 @@ const DefaultHero: FC = function () {
           </span>
           &nbsp;
           <span className="text-sm font-medium">
-            Flowbite is out! See what's new
+            Flowbite is out&apos; See what's new
           </span>
           <svg
             className="ml-2 h-5 w-5"
