@@ -1,6 +1,8 @@
 import { Button } from "flowbite-react";
 import type { FC } from "react";
 
+
+
 const DefaultHero: FC = function () {
   return (
     <section className="bg-white dark:bg-gray-900">
