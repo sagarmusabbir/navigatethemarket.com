@@ -3,15 +3,18 @@ import Image from 'next/image'
 import DefaultHero from './hero'
 import DefaultPricingTable from './block'
 import DefaultFooterSection from './footer'
-import DefaultHeaderSection from './header-mega'
+
+import MegaMenuHeader from './mega-menu'
 
 export default function Home() {
   return (
     
 
     <main>
+
+      <MegaMenuHeader/>
       
-      <DefaultHeaderSection/>
+      
       <DefaultHero/>
       <DefaultPricingTable/>
       <DefaultFooterSection/>
